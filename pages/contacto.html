@@ -1,24 +1,87 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    Liberata
+    
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>LIBERATA</title>
+    <title></title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
     <link rel="stylesheet" href="../css/style.css">
 </head>
 <body>
-    <ul>
-        <li><a href="../index.html">Inicio</a></li>
-        <li><a href="../pages/productos.html">Productos</a></li>
-        <li><a href="https://www.instagram.com/liberata.showroom/?hl=es" target="_blank">Instagram</a></li>
-        <li><a href="../pages/Cómo comprar.html">Cómo comprar</a></li>
-        <li><a href="../pages/contacto.html">Contacto</a></li>
-    </ul>
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">LIBERATA</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" href="../index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../pages/productos.html">Productos</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link" href="../pages/contacto.html">
+                  Contacto
+                </a>
+              
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../pages/Cómo comprar.html">Como comprar</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>  
+      </header>
 
+      <div class="containerform"
+      id="contenedor-formulario">
+      <div class="titulo-formulario">
+        <div><img src="../Multimedia/Servicio-y-atención-al-cliente.jpg" alt="contacto" class="img-fluid"></div>
+        <h2>Contacto</h2>
+        <p class="fs-5">Estamos aqui para ayudarte en lo que necesites</p>
+      </div>
+        <form action="">
+            <div class="mb-3">
+  
+    <input type="email" class="form-control" id="email" placeholder="nombre@ejemplo.com"
+         required>
+    </div>
+    <div class="mb-3">
+  
+        <input type="text" class="form-control" id="nombre" placeholder="jose di meglio"
+             required>
+        </div>
+        <div class="mb-3">
+  
+            <input type="tel" class="form-control" id="tel" placeholder="000035"
+                 required>
+            </div>
+    <div class="mb-3">
+  
+    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Escribe tu mensaje"></textarea>
+    </div>
+    <div class="mb-3">
+        <button type="button" class="btn btn-primary w-100 fs-5">Enviar mensaje</button>
+
+    </div>
+        </form>
+        </div>
 
     
+
+<!--
     <form action="" method="GET" enctype="multipart/form-data">
     <fieldset>
         <legend>
@@ -55,11 +118,16 @@
         <input type="button" value="Boton">
         </fieldset>
     </form>
-<!--Multimedia-->
+Multimedia
 <img src="../Multimedia/pantalonliberata.jpeg" alt="Vestimenta">
-
-<footer class="finalpag">
-    <p>Todos los derechos reservados @Copyright 2022</p>
+-->
+<footer class="w-100 d-flex align-items justify-content-center flex-wrap">
+        
+    <p class="fs-5 px-3 pt-3">&copy; Liberata 2022</p>
+</div id="iconos">
+<a href="https://www.instagram.com/liberata.showroom/?hl=es"><i class="bi bi-instagram"></i></a>
+</div>
 </footer>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
 </body>
 </html>
