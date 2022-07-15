@@ -6,7 +6,9 @@
 body{
     font-family: 'Roboto', sans-serif;
     margin: 0;
-}
+    padding-bottom: 3em;
+    flex-direction: column;
+
 
 h1{font-size: 3.5em;}
 h2{ font-size: 2.7em;}
@@ -47,7 +49,7 @@ header .logo{
     padding: 25px 30px;
     font-weight: bold;
     color: blueviolet;
-    font-size: 1.6em;
+    font-size: 4em;
 }
 
 header .container{
@@ -88,7 +90,7 @@ header a:hover{
         rgba(0,0,0,0.5)
     )
     
-    ,url("../Multimedia/fondo.jpg");
+    ,url("../Multimedia/fondo1.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -102,9 +104,6 @@ header a:hover{
     font-size: 1,75em;
 }
 
-#somos-lib{
-
-}
 
 #somos-lib .container{
     text-align: center;
@@ -140,22 +139,26 @@ header a:hover{
 
 }
 
-.carta :first-child{
+.carta:first-child{
+    
     background-image: linear-gradient(
         0deg,
         rgba(0,0,0,0.5),
         rgba(0,0,0,0.5)
     )
-    ,url("../Multimedia/LIBERATA2.jpeg")
+    ,url("../Multimedia/pantalonliberata.jpeg");
+    background-position: center center;
+    background-size: auto;
 }
 
 .carta:nth-child(2){
+    
     background-image: linear-gradient(
         0deg,
         rgba(0,0,0,0.5),
         rgba(0,0,0,0.5)
     )
-    ,url("../Multimedia/liberata3.png")
+    ,url("../Multimedia/hombre.jpg")
 
 }
 
@@ -165,12 +168,12 @@ header a:hover{
         rgba(0,0,0,0.5),
         rgba(0,0,0,0.5)
     )
-    ,url("../Multimedia/pantalonliberata.jpeg")
+    ,url("../Multimedia/accesorios.jpg")
 }
 
 #caracteristicas .container{
     text-align: center;
-    padding: 200px 12px;
+    padding: 250px 12px;
 
 }
 
@@ -277,6 +280,48 @@ footer .container{
     margin-bottom: 30px;
 }
 
+#nuestros-programas h3{
+    margin-top: 0;
+}
+
 #nuestros-programas .carta{
-    padding: 15px;
+    padding: 50px;
+    background-size: 100% 150px;
+    background-repeat: no-repeat;
+    background-position-y: 0;
+    background-color: rgb(50, 50, 50);
+    box-shadow: 2px 2px 10px rgba(0,0,0,0.5);
+}
+
+footer {
+    background: #1b2a4e;
+    min-height: 100px;
+    margin-top: auto;
+}
+
+footer p{
+    color: #f3f3f3;
+    text-align: center;
+}
+
+#iconos i {
+    font-size: 10px;
+    padding: 0 8px;
+    color: #f3f3f3
+}
+
+#contenedor-formulario {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #fbfafa;
+    border-radius: 5px;
+    max-width: 500px;
+
+}
+
+#titulo-formulario{
+    color: #3f3f3f
+}
 }

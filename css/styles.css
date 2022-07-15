@@ -1,0 +1,258 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding-bottom: 3em;
+  flex-direction: column;
+}
+body h1 {
+  font-size: 3.5em;
+}
+body h2 {
+  font-size: 2.7em;
+}
+body h3 {
+  font-size: 2em;
+}
+body p {
+  font-size: 1.25em;
+}
+body ul {
+  list-style: none;
+}
+body li {
+  font-size: 1.25em;
+}
+body button {
+  font-size: 1.5em;
+  font-weight: bold;
+  padding: 10px 30px;
+  border-radius: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+  color: white;
+  background-color: blueviolet;
+}
+body button:hover {
+  background-color: rgb(101, 33, 165);
+}
+body .container {
+  max-width: 1400px;
+  margin: auto;
+}
+body .color-acento {
+  color: blueviolet;
+}
+body header {
+  background-color: rgb(245, 245, 245);
+}
+body header .logo {
+  margin: 0;
+  padding: 25px 30px;
+  font-weight: bold;
+  color: blueviolet;
+  font-size: 4em;
+}
+body header .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+body header nav {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding-bottom: 25px;
+}
+body header a {
+  padding: 5px 12px;
+  text-decoration: none;
+  font-weight: bold;
+  color: black;
+}
+body header a:hover {
+  color: blueviolet;
+}
+body #hero {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  height: 90vh;
+  color: white;
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../Multimedia/fondo1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+body #hero h1 {
+  color: white;
+}
+body #hero button {
+  font-size: 1, 75em;
+}
+body #somos-lib .container {
+  text-align: center;
+  padding: 200px 12px;
+}
+body #nuestros-productos {
+  background-color: rgb(30, 30, 30);
+  color: white;
+  text-align: center;
+}
+body #nuestros-productos .container {
+  padding: 100px 0px;
+}
+body #nuestros-productos h2 {
+  margin-top: 0;
+  font-size: 3.2em;
+}
+body #nuestros-productos p {
+  display: none;
+}
+body #nuestros-productos .carta {
+  background-position: center center;
+  background-size: cover;
+  padding: 50px;
+  margin: 20px;
+  border-radius: 15px;
+}
+body .carta:first-child {
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../Multimedia/pantalonliberata.jpeg");
+  background-position: center center;
+  background-size: auto;
+}
+body .carta:nth-child(2) {
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../Multimedia/hombre.jpg");
+}
+body .carta:nth-child(3) {
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../Multimedia/accesorios.jpg");
+}
+body #caracteristicas .container {
+  text-align: center;
+  padding: 250px 12px;
+}
+body #caracteristicas li {
+  margin: 15px 0px;
+  font-weight: bold;
+}
+body #Comprar-Ya {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: rgb(30, 30, 30);
+  color: white;
+  height: 80vh;
+}
+body #Comprar-Ya h2 {
+  font-size: 9vw;
+}
+body #Comprar-Ya button {
+  font-size: 5vw;
+}
+body footer {
+  background-color: rgb(230, 230, 230);
+}
+body footer p {
+  margin: 0;
+  padding: 12px;
+  color: rgb(100, 100, 100);
+}
+body footer .container {
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+@media (min-width: 720px) {
+  body header {
+    position: fixed;
+    width: 100%;
+  }
+  body header .container {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  body header nav {
+    flex-direction: row;
+    padding-bottom: 0;
+    padding-right: 20px;
+  }
+}
+body #hero h1 {
+  font-size: 5em;
+}
+body #somos-lib .container {
+  display: flex;
+  justify-content: space-evenly;
+}
+body #somos-lib .texto {
+  width: 50%;
+  max-width: 600px;
+  text-align: initial;
+  padding-left: 30px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+body #somos-lib h2 {
+  margin-top: 0px;
+}
+body #somos-lib .img-container {
+  background-image: url("../Multimedia/ropasomoslib.jpg");
+  background-size: cover;
+  background-position: center center;
+  height: 500px;
+  width: 400px;
+}
+body #nuestros-productos .productos {
+  display: flex;
+  justify-content: center;
+}
+body #nuestros-programas p {
+  display: block;
+  margin-bottom: 30px;
+}
+body #nuestros-programas h3 {
+  margin-top: 0;
+}
+body #nuestros-programas .carta {
+  padding: 50px;
+  background-size: 100% 150px;
+  background-repeat: no-repeat;
+  background-position-y: 0;
+  background-color: rgb(50, 50, 50);
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+}
+body footer {
+  background: #1b2a4e;
+  min-height: 100px;
+  margin-top: auto;
+}
+body footer p {
+  color: #f3f3f3;
+  text-align: center;
+}
+body #iconos i {
+  font-size: 10px;
+  padding: 0 8px;
+  color: #f3f3f3;
+}
+body #contenedor-formulario {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: #fbfafa;
+  border-radius: 5px;
+  max-width: 500px;
+}
+body #titulo-formulario {
+  color: #3f3f3f;
+}/*# sourceMappingURL=styles.css.map */
