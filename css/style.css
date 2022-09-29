@@ -53,7 +53,7 @@ header .logo{
 }
 
 header .container{
-    display: flex;
+
     flex-direction: column;
     align-items: center;
     }
@@ -134,8 +134,7 @@ header a:hover{
 #nuestros-productos .carta{
     background-position: center center;
     background-size: cover;
-    padding: 50px;
-    margin: 20px;
+    height: 400px;
     border-radius: 15px;
 
 }
@@ -312,10 +311,10 @@ footer p{
 }
 
 #contenedor-formulario {
-    position: absolute;
-    top: 30%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    
+    
+    
+    
     background: #fbfafa;
     border-radius: 5px;
     max-width: 500px;
